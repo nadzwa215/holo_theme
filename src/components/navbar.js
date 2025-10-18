@@ -12,8 +12,8 @@ const Navbar = () => {
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
             >
-              <span className="text-gradient bg-gradient-to-r from-pink to-purple font-semibold">
-                HOLO
+              <span className="text-gradient bg-gradient-to-r from-green  to-lightGreen font-semibold">
+                Saiga Stable
               </span>
             </a>
             <div className="hidden md:block">

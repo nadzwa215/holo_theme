@@ -12,8 +12,8 @@ module.exports = {
     },
     colors: {
       black: colors.black,
-      purple: "#827fb9",
-      pink: "#aaafeb",
+      green: "#15803d",  // atau warna hijau yang diinginkan
+      lightGreen: "#a7f3d0",
       darkpurple: "#634880",
       white: colors.white,
       lightblack: "#141414",

@@ -82,8 +82,8 @@ module.exports = {
         name: `Holo - Gatsby Starter Theme`,
         short_name: `Holo`,
         start_url: `/`,
-        background_color: `#ebebfa`,
-        theme_color: `#ebebfa`,
+        background_color: `#f0f0f0`,
+        theme_color: `#f0f0f0`,
         display: `standalone`,
         icon: `src/images/3D-liquid-abstract-5.webp`, // This path is relative to the root of the site.
       },
