@@ -7,26 +7,25 @@ const FeaturedBlog = () => {
       <div className="bg-transparent">
         <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
           <h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
-            STAY UP TO DATE
+            Don’t Miss Out
           </h2>
           <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
             Latest Posts
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              Belajar Kuda, Belajar Kendali Diri
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Berkuda bukan hanya tentang kecepatan tapi tentang adab, keseimbangan, dan keberanian 
+              dalam mengendalikan diriserta hewan tunggangan.Setiap langkah kuda mengajarkan kesabaran, 
+              tanggung jawab, dan keharmonisan antara manusia dan ciptaan Allah.
             </p>
             <a
               href="/blog/blog-post"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
-              Continue Reading
+              Baca Artikel
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"
@@ -47,19 +46,18 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Saiga Stable: Membangun Jiwa Tangguh dengan Sunnah
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Kami menghadirkan pengalaman belajar berkuda dan memanah yang berpadu dengan 
+                nilai-nilai Islam.Sebuah wadah untuk mengasah fisik, menumbuhkan akhlak, 
+                dan menapaki jalan sunnah dengan semangat.
               </p>
               <a
                 href="/blog/blog-post-1"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Baca Artikel
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -79,19 +77,18 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Kuda, Sahabat dalam Menempa Keberanian
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Setiap pelana membawa pelajaran tentang keberanian dan kendali diri. 
+                Melalui latihan berkuda, peserta belajar keseimbangan antara kekuatan dan kelembutan 
+                sebagaimana sunnah mengajarkan kita untuk bijak dalam setiap tindakan.
               </p>
               <a
                 href="/blog/blog-post-2"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Continue Reading
+                Baca Artikel
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"

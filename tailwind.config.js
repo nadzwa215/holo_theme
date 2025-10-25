@@ -13,12 +13,12 @@ module.exports = {
     colors: {
       black: colors.black,
       green: "#15803d",  // atau warna hijau yang diinginkan
-      lightGreen: "#a7f3d0",
+      lightGreen: "#99cf48",
       darkpurple: "#634880",
       white: colors.white,
       lightblack: "#141414",
       bg: "hsla(243, 60%, 95%, 1)",
-      dp: "#525074",
+      dp: "#4a5440",
       gray: colors.gray,
       transparent: colors.transparent,
     },

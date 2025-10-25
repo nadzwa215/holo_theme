@@ -21,26 +21,36 @@ const WorkPage = () => {
       </Fade> */}
 
       <Fade bottom cascade>
-        <div className="mt-10  flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">95+</h4>
-          </div>
+  <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
+    {/* Kotak 1 - Tingkat Kepuasan */}
+    <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:shadow-lg transition-all duration-300">
+      <h3 className="text-black text-2xl font-semibold">Tingkat Kepuasan</h3>
+      <h4 className="mt-6 text-black opacity-80 text-4xl font-bold">95%</h4>
+      <p className="mt-3 text-black opacity-60 text-sm">Siswa & Orang Tua</p>
+    </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade>
+    {/* Kotak 2 - Fasilitas Lengkap */}
+    <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:shadow-lg transition-all duration-300">
+      <h3 className="text-white text-2xl font-semibold">Fasilitas Lengkap</h3>
+      <h4 className="mt-6 text-white opacity-90 text-4xl font-bold">100%</h4>
+      <p className="mt-3 text-white opacity-70 text-sm">Akses & Kenyamanan</p>
+    </div>
+
+    {/* Kotak 3 - Kuda Terlatih */}
+    <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:shadow-lg transition-all duration-300">
+      <h3 className="text-white text-2xl font-semibold">Kuda Terlatih</h3>
+      <h4 className="mt-6 text-white opacity-90 text-4xl font-bold">50+</h4>
+      <p className="mt-3 text-white opacity-70 text-sm">Professional & Aman</p>
+    </div>
+
+    {/* Kotak 4 - Pengalaman */}
+    <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block hover:shadow-lg transition-all duration-300">
+      <h3 className="text-white text-2xl font-semibold">Pengalaman</h3>
+      <h4 className="mt-6 text-white opacity-90 text-4xl font-bold">10+</h4>
+      <p className="mt-3 text-white opacity-70 text-sm">Tahun Mengajar</p>
+    </div>
+  </div>
+</Fade>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>

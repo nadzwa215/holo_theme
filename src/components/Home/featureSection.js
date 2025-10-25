@@ -2,35 +2,48 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import HeroImage from "../../images/wel.jpg"
+import Image1 from "../../images/f1.jpg"
+import Image2 from "../../images/f2.jpg"
+import Image3 from "../../images/f3.jpg"
 
 const FeatureSection = () => {
   return (
     <div className="max-w-7xl mx-auto">
-      <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
-          </div>
+  <Fade bottom cascade>
+    <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
+      
+      <div className="w-1/3 bg-green p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+        <h3 className="text-[#cfe78d] text-2xl font-semibold tracking-wide">Memanah</h3>
+        <h4 className="mt-6 text-white opacity-90 text-lg leading-relaxed">
+          Latih fokus, kendalikan diri, dan niatkan untuk sunnah.
+        </h4>
+      </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
-          </div>
-        </div>
-      </Fade>
+      <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+        <h3 className="text-[#d6c97a] text-2xl font-semibold tracking-wide">Berkuda</h3>
+        <h4 className="mt-6 text-white opacity-90 text-lg leading-relaxed">
+          Seimbang, kuat, dan berani  belajar dengan adab dan amanah.
+        </h4>
+      </div>
+      
+      <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+        <h3 className="text-[#d6c97a] text-2xl font-semibold tracking-wide">Adab & Sunnah</h3>
+        <h4 className="mt-6 text-white opacity-90 text-lg leading-relaxed">
+          Meneladani Rasulullah ﷺ dalam setiap gerak dan niat.
+        </h4>
+      </div>
+      
+      <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+        <h3 className="text-[#d6c97a] text-2xl font-semibold tracking-wide">Saiga Spirit</h3>
+        <h4 className="mt-6 text-white opacity-90 text-lg leading-relaxed">
+          Keteguhan, kebersamaan, dan niat lurus di jalan sunnah.
+        </h4>
+      </div>
+      
+    </div>
+  </Fade>
+
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
@@ -43,15 +56,15 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            <h2 className="text-black text-4xl font-semibold"></h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-lightGreen to-green">
-              Time to unlock new speeds
+              Mahir Berkuda, Meneladani Sunnah
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Kami menghadirkan pembelajaran berkuda yang 
+              tidak hanya mengajarkan teknik profesional, tetapi juga menanamkan akhlak 
+              mulia dan tradisi islami dalam setiap langkahnya.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -93,43 +106,37 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-transparant p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+              PROGRAM KAMI
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
+                <p className="text-black text-2xl">Berkuda Dasar</p>
+                <p className="text-black opacity-50 text-sm">Untuk pemula semua usia</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
+                <p className="text-black text-2xl">Berkuda Lanjutan</p>
+                <p className="text-black opacity-50 text-sm">Teknik Berkuda dan Memanah</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
+                <p className="text-black text-2xl">Memanah</p>
                 <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
+                  Teknik Dasar Memanah 
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
-            <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+          <div className="w-4/6 bg-green p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
+            <h2 className="text-[#cfe78d] text-5xl font-semibold tracking-wide">
+              Kuasai Seni Berkuda dan Memanah ala Sunnah
             </h2>
-            <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+            <p className="mt-6 text-white opacity-90 text-lg leading-relaxed">
+              Saiga Stable for Sunnah menghidupkan kembali tradisi Rasulullah dengan 
+              program berkuda dan memanah yang terintegrasi. Pelajari dua keahlian 
+              mulia ini dalam satu kurikulum yang menggabungkan teknik profesional 
+              dengan nilai-nilai islami untuk membentuk pribadi yang kuat dan berakhlak.
             </p>
           </div>
         </div>
@@ -137,49 +144,43 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          METODE PEMBELAJARAN ISLAMI
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-green to-lightGreen">
+          Kuasai Dua Keahlian Sunnah yang Mulia
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Kami mengembangkan kurikulum berkuda dan memanah yang tidak hanya 
+          fokus pada teknik, tetapi juga integrasi nilai-nilai sunnah. Setiap 
+          sesi latihan dirancang untuk membangun akhlak, disiplin, dan rasa 
+          tanggung jawab, mengikuti teladan Rasulullah dalam berolahraga.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          KOLABORASI & KEMITRAAN
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-green to-lightGreen">
+          Wujudkan Komunitas Berkuda Islami
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+           Dalam rangka mewujudkan visi menyebarkan manfaat olahraga sunnah, 
+            Saiga Stable membangun jaringan kemitraan yang komprehensif dengan 
+            berbagai pihak terkemuka. Kami bekerja sama dengan pondok pesantren 
+            untuk integrasi nilai-nilai keislaman, klub olahraga profesional 
+            untuk standar teknik yang tinggi, serta komunitas-komunitas islami 
+            untuk memperluas dampak sosial. Sinergi ini memungkinkan kami 
+            menyediakan program berkuda dan memanah yang berkualitas, terjangkau, 
+            dan sesuai dengan nilai-nilai islami untuk masyarakat luas.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
               href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-green text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Hubungi Kami
             </a>
           </div>
         </div>
@@ -188,69 +189,39 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="grid grid-cols-3 mt-10 gap-4 xxs:grid-cols-1 lg:grid-cols-3 px-5">
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image1}></img>
+            <img alt="f1" src={Image1}></img>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 flex justify-center">
-            <img alt="Image" src={Image2}></img>
+            <img alt="f2" src={Image2}></img>
           </div>
           <div className="rounded-xl overflow-hidden relative hover:opacity-100 hidden lg:block ">
-            <img alt="Image" src={Image3}></img>
+            <img alt="f3" src={Image3}></img>
           </div>
         </div>
       </Fade>
 
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
-          </div>
+  <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
+    <div className="w-1/3 bg-green p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+      <h3 className="text-[#cfe78d] text-2xl font-semibold tracking-wide">Program Berkuda</h3>
+      <h4 className="mt-10 text-black opacity-70 text-xl">Latihan & Ketangkasan</h4>
+    </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
-            </h4>
-          </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
-            </h4>
-          </div>
-        </div>
-      </Fade>
-      {/* 
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold text-gradient bg-gradient-to-r from-pink to-purple">
-          {" "}
-          Integrations
-        </h2>
-        <h3 className="text-black mt-5 font-bold text-6xl xxs:text-lg xs:text-xl sm:text-xl lg:text-6xl">
-          Discover, connect, and configure
-        </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="rounded-md">
-            <a
-              href="/contact/"
-              className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-purple border border-purple hover:bg-transparent md:text-lg md:px-10"
-            >
-              Send Enquiry
-            </a>
-          </div>
-        </div>
-      </div> */}
+    <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+      <h3 className="text-[#d6c97a] text-2xl font-semibold tracking-wide">Program Memanah</h3>
+      <h4 className="mt-10 text-white opacity-70 text-xl">
+        Fokus & Ketenangan
+      </h4>
+    </div>
+
+    <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
+      <h3 className="text-[#d6c97a] text-2xl font-semibold tracking-wide">Adab & Sunnah</h3>
+      <h4 className="mt-10 text-white opacity-70 text-xl">
+        Pembentukan Karakter Islami
+      </h4>
+    </div>
+  </div>
+</Fade>
     </div>
   )
 }
