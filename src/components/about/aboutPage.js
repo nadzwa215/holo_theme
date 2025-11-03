@@ -3,73 +3,120 @@ import Fade from "react-reveal/Fade"
 
 const WorkPage = () => {
   return (
-    <div className="max-w-7xl mx-auto mt-10">
-      {/* <Fade duration={2200}>
-        <div className="flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row mb-5 max-h-80">
-          <div className="w-2/4 flex flex-col justify-center bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-full lg:w-full">
-            <h1 className="text-5xl mt-5 font-bold text-white">
-              test<br></br>
-            </h1>
-            <p className="mt-5 text-white opacity-70">
-              test
-            </p>
-          </div>
-          <div className="overflow-hidden rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6 object-cover object-center h-full w-full">
-            <img src={Image3} alt="image"></img>
+    <div className="max-w-6xl mx-auto pt-16 px-4 lg:px-8">
+      
+      {/* Stats Section - Realistis */}
+      <Fade bottom cascade>
+        <div className="text-center mb-16">
+          <h2 className="text-3xl lg:text-4xl font-['Poppins'] font-bold text-gray-900 mb-12">
+            Perjalanan Kami Sejauh Ini
+          </h2>
+          
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
+            {/* Stat 1 */}
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-bold text-green-600 mb-2">5</div>
+              <div className="text-gray-600 font-medium">Kuda Pilihan</div>
+              <div className="text-gray-500 text-sm mt-1">Terlatih & Bersahabat</div>
+            </div>
+            
+            {/* Stat 2 */}
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-bold text-green-600 mb-2">2</div>
+              <div className="text-gray-600 font-medium">Program Utama</div>
+              <div className="text-gray-500 text-sm mt-1">Berkuda & Memanah</div>
+            </div>
+            
+            {/* Stat 3 */}
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-bold text-green-600 mb-2">20+</div>
+              <div className="text-gray-600 font-medium">Siswa Aktif</div>
+              <div className="text-gray-500 text-sm mt-1">Dari Berbagai Usia</div>
+            </div>
+            
+            {/* Stat 4 */}
+            <div className="text-center">
+              <div className="text-4xl lg:text-5xl font-bold text-green-600 mb-2">3</div>
+              <div className="text-gray-600 font-medium">Pelatih Berpengalaman</div>
+              <div className="text-gray-500 text-sm mt-1">Bidang Berkuda & Memanah</div>
+            </div>
           </div>
         </div>
-      </Fade> */}
+      </Fade>
 
-      <Fade bottom cascade>
-  <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-    {/* Kotak 1 - Tingkat Kepuasan */}
-    <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:shadow-lg transition-all duration-300">
-      <h3 className="text-black text-2xl font-semibold">Tingkat Kepuasan</h3>
-      <h4 className="mt-6 text-black opacity-80 text-4xl font-bold">95%</h4>
-      <p className="mt-3 text-black opacity-60 text-sm">Siswa & Orang Tua</p>
-    </div>
-
-    {/* Kotak 2 - Fasilitas Lengkap */}
-    <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:shadow-lg transition-all duration-300">
-      <h3 className="text-white text-2xl font-semibold">Fasilitas Lengkap</h3>
-      <h4 className="mt-6 text-white opacity-90 text-4xl font-bold">100%</h4>
-      <p className="mt-3 text-white opacity-70 text-sm">Akses & Kenyamanan</p>
-    </div>
-
-    {/* Kotak 3 - Kuda Terlatih */}
-    <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3 hover:shadow-lg transition-all duration-300">
-      <h3 className="text-white text-2xl font-semibold">Kuda Terlatih</h3>
-      <h4 className="mt-6 text-white opacity-90 text-4xl font-bold">50+</h4>
-      <p className="mt-3 text-white opacity-70 text-sm">Professional & Aman</p>
-    </div>
-
-    {/* Kotak 4 - Pengalaman */}
-    <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block hover:shadow-lg transition-all duration-300">
-      <h3 className="text-white text-2xl font-semibold">Pengalaman</h3>
-      <h4 className="mt-6 text-white opacity-90 text-4xl font-bold">10+</h4>
-      <p className="mt-3 text-white opacity-70 text-sm">Tahun Mengajar</p>
-    </div>
-  </div>
-</Fade>
-
-      <div className="mt-10 px-8">
-        <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Time to lock new speeds
+      {/* Main Content Section */}
+      <div className="max-w-4xl mx-auto">
+        {/* Heading */}
+        <h3 className="text-3xl lg:text-4xl font-['Poppins'] font-bold text-center mb-8">
+          <span className="bg-gradient-to-r from-green-600 to-emerald-500 bg-clip-text text-transparent">
+            Perjalanan Ikhlas untuk Umat
+          </span>
         </h3>
 
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+        {/* Content */}
+        <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
+          <p className="text-lg mb-6">
+            Dengan semangat menghidupkan sunnah Rasulullah, Saiga Stable memulai perjalanan 
+            sederhana namun penuh makna dalam mengajarkan berkuda dan memanah.
+          </p>
+
+          <div className="space-y-6">
+            <div>
+              <h4 className="text-green-600 font-semibold text-xl mb-3">Kuda Pilihan yang Terlatih</h4>
+              <p>
+                Kami memiliki <strong>5 kuda pilihan</strong> yang sudah terlatih dengan baik dan 
+                bersahabat dengan penunggang. Setiap kuda dipilih dengan teliti untuk memastikan 
+                keamanan dan kenyamanan belajar, khususnya untuk pemula dan anak-anak.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-green-600 font-semibold text-xl mb-3">Program Memanah Sunnah</h4>
+              <p>
+                Selain berkuda, kami menyediakan <strong>program memanah</strong> yang mengajarkan 
+                teknik dasar hingga menengah. Peralatan memanah kami sesuaikan dengan berbagai usia, 
+                dari anak-anak hingga dewasa, dengan penekanan pada konsentrasi dan ketenangan jiwa.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-green-600 font-semibold text-xl mb-3">Didampingi Pelatih Berpengalaman</h4>
+              <p>
+                <strong>3 pelatih berpengalaman</strong> siap membimbing dengan pendekatan personal. 
+                Mereka tidak hanya mahir dalam teknik berkuda dan memanah, tetapi juga memahami 
+                nilai-nilai sunnah yang ingin kami tanamkan.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-green-600 font-semibold text-xl mb-3">Fasilitas yang Nyaman</h4>
+              <p>
+                Meski masih dalam perkembangan, kami menyediakan <strong>fasilitas yang aman dan nyaman</strong> 
+                untuk belajar. Arena latihan kami dirancang khusus untuk pemula dengan lingkungan 
+                yang mendukung proses belajar.
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-green-600 font-semibold text-xl mb-3">Komunitas yang Hangat</h4>
+              <p>
+                <strong>20+ siswa aktif</strong> telah bergabung dan membentuk komunitas belajar 
+                yang supportive. Di sini, tidak hanya skill yang berkembang, tetapi juga silaturahmi 
+                dan nilai-nilai ukhuwah islamiyah.
+              </p>
+            </div>
+          </div>
+
+          {/* Closing Statement */}
+          <div className="bg-green-50 rounded-xl p-6 mt-8 border border-green-200">
+            <p className="text-green-800 text-center font-medium">
+              "Dari yang sederhana, kami berkomitmen memberikan yang terbaik. 
+              Setiap langkah adalah ibadah, setiap pembelajaran adalah sedekah ilmu"
+            </p>
+          </div>
+        </div>
       </div>
+
     </div>
   )
 }

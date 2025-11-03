@@ -21,7 +21,7 @@ const Footer = () => {
                   &copy; {new Date().getFullYear()}. All Rights Reserved.
                 </span>
               </p>
-              {/* <div className="text-black font-bold block-inline">
+              <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
                     Saiga
@@ -35,17 +35,17 @@ const Footer = () => {
                     Stable
                   </a>
                   <a
-                    href="https://github.com/lilxyzz/holo-theme"
+                    href="https://www.instagram.com/saiga.stable?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     target="_blank"
                   >
                     <img
                       className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
+                      src="/img/instagram-logo.png"
                       alt="GitHub"
                     ></img>
                   </a>
                 </p>
-              </div> */}
+              </div>
             </div>
 
             <div className="place-self-end self-center xxs:hidden lg:block">

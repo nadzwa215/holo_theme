@@ -1,68 +1,72 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import hero from "../../images/PIC2.png"
+import hero from "../../images/header.png"
 
 const Header = () => {
   return (
     <Fade duration={2200}>
-      <div className="max-w-7xl mx-auto lg:px-6 md:px-3 pt-20">
-        <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
+      <div className="max-w-7xl mx-auto lg:px-6 md:px-3 pt-6">
+        <div className="my-2 mx-auto max-w-7xl px-4 sm:mt-4 sm:px-6 md:mt-6 lg:mt-8 lg:px-0 xl:mt-12 flex gap-6 lg:flex-justify lg:flex lg:flex-row flex-col-reverse">
+          
           <div className="text-center lg:text-left flex flex-col justify-center">
-            <h1 className="text-black text-3xl font-semibold opacity-70">
+            {/* Logo Section - Kembali ke warna awal */}
+            <div className="mb-3 flex items-center justify-center lg:justify-start space-x-3">
+              <h2 className="text-black text-gradient bg-gradient-to-r from-lightGreen to-green text-6xl font-['Poppins'] font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
+                Saiga Stable
+              </h2>
+              <span className="bg-green text-white px-3 py-1 rounded-lg text-sm font-bold mt-2">
+                for sunnah
+              </span>
+            </div>
+
+            {/* Welcome Message */}
+            <h1 className="text-black text-3xl font-['Poppins'] font-semibold opacity-70 mb-3">
               SELAMAT DATANG DI WEBSITE KAMI
             </h1>
-            <h2 className="text-black text-gradient bg-gradient-to-r from-lightGreen to-green text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Saiga Stable
-            </h2>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              Saiga Stable for Sunnah - Sekolah berkuda yang mengintegrasikan seni berkuda dengan nilai-nilai sunnah Nabi. 
+            {/* Description */}
+            <p className="mt-2 text-base text-black-70 sm:mt-3 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-3 md:text-xl lg:mx-0">
+              Saiga Stable for Sunnah  Sekolah berkuda yang mengintegrasikan seni berkuda dengan nilai-nilai sunnah Nabi. 
               Kami menghadirkan pembelajaran berkuda yang tidak hanya mengajarkan teknik profesional, 
               tetapi juga menanamkan akhlak mulia dan tradisi islami dalam setiap langkahnya.
             </p>
 
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <div className="rounded-md">
-                <a
-                  href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-green text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+           {/* CTA Buttons - Diperbaiki styling */}
+            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+              <a
+                href="/contact"
+                className="border-2 border-lightGreen hover:bg-green text-black hover:text-white px-6 py-3 rounded-lg font-bold font-montserrat transition-all duration-300 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Contact Us
+                <svg
+                  className="w-4 h-4 ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
                 >
-                  Contact Us
-                  <svg
-                    className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 14 10"
-                  >
-                    <path
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M1 5h12m0 0L9 1m4 4L9 9"
-                    />
-                  </svg>
-                </a>
-              </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
-                <a
-                  href="/about"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-green bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
-                >
-                  Get To Know Us
-                </a>
-              </div>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+              
+              <a
+                href="/about"
+                className="border-2 border-lightGreen text-black hover:bg-green hover:text-white px-6 py-3 rounded-lg font-bold font-montserrat transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Get To Know Us
+              </a>
             </div>
+
+            {/* Trust badges dihapus */}
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
+          {/* Image Section - tanpa decorative element */}
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-2 flex lg:justify-end justify-center">
             <img
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
-              alt=""
-            ></img>
+              alt="Saiga Stable Hero"
+            />
           </div>
         </div>
       </div>
