@@ -52,12 +52,12 @@ const Navbar = () => {
                   Contact
                 </Link>
                 <div className="items-center">
-                  <a
+                  {/* <a
                     href="tel:#"
                     className="transition-all duration-500ms ease-in-out hover:ease-in-out bg-transparent py-2 px-3 text-sm font-bold text-center text-lightGreen rounded-lg border border-purple hover:text-white border-white hover:bg-purple" // Mengurangi ukuran tombol
                   >
                     Call Us Now
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

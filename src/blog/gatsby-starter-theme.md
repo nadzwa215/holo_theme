@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Menguasai Dua Keahlian Sunnah Berkuda & Memanah
 date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/blog1.jpg
+featuredimage: /img/headerblog.jpg
 categories:
   - Olahraga Sunnah
 description: >-

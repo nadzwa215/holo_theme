@@ -14,12 +14,14 @@ const FeaturedBlog = () => {
           </h3>
           <div className="blog-hover bg-transparent border mt-10 border-dp rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Belajar Kuda, Belajar Kendali Diri
+              Harmoni Dua Sunnah Integrasi Berkuda dan Memanah dalam Kehidupan Modern
+
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Berkuda bukan hanya tentang kecepatan tapi tentang adab, keseimbangan, dan keberanian 
-              dalam mengendalikan diriserta hewan tunggangan.Setiap langkah kuda mengajarkan kesabaran, 
-              tanggung jawab, dan keharmonisan antara manusia dan ciptaan Allah.
+              Di Saiga Stable, kami meyakini bahwa kedua sunnah ini justru semakin relevan di zaman now. 
+              Berkuda menjadi sarana digital detox yang alami, mengajak kita kembali terhubung dengan 
+              alam setelah sekian lama terpaku pada layar gawai. Sementara memanah melatih fokus dan konsentrasi
+              yang justru semakin tumpul di era informasi yang overload.
             </p>
             <a
               href="/blog/blog-post"
@@ -43,8 +45,8 @@ const FeaturedBlog = () => {
               </svg>
             </a>
           </div>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
+          {/* <div className="grid md:grid-cols-2 gap-8"> */}
+            {/* <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
                 Saiga Stable: Membangun Jiwa Tangguh dengan Sunnah
               </h2>
@@ -75,15 +77,16 @@ const FeaturedBlog = () => {
                   />
                 </svg>
               </a>
-            </div>
-            <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
+            </div> */}
+            <div className="blog-hover bg-transparent border mt-10 border-dp rounded-lg p-8 md:p-12 mb-8">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Kuda, Sahabat dalam Menempa Keberanian
+                Seni Berkuda dalam Perspektif Islam Menghidupkan Sunnah di Era Modern
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Setiap pelana membawa pelajaran tentang keberanian dan kendali diri. 
-                Melalui latihan berkuda, peserta belajar keseimbangan antara kekuatan dan kelembutan 
-                sebagaimana sunnah mengajarkan kita untuk bijak dalam setiap tindakan.
+                Rasulullah ﷺbersabda: “Ajarlah anak-anak kalian berkuda, berenang,
+                dan memanah.” (HR. Bukhari dan Muslim). Hadits ini bukan sekadar anjuran, tetapi
+                petunjuk edukatif yang menyeluruh. Di Saiga Stable, kami menghidupkan sunnah ini dengan 
+                pendekatan yang terintegrasi antara teknik modern dan nilai-nilai islami.
               </p>
               <a
                 href="/blog/blog-post-2"
@@ -110,7 +113,7 @@ const FeaturedBlog = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </Fade>
   )
 }

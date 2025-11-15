@@ -34,12 +34,12 @@ const FeatureSection = () => {
             </p>
 
             <div className="mt-6 sm:mt-8 sm:flex sm:justify-center lg:justify-end space-x-4">
-              <a
+              {/* <a
                 href="tel:#"
                 className="border-2 border-lightGreen hover:bg-green text-black hover:text-white px-6 py-3 rounded-lg font-bold font-montserrat transition-all duration-300 inline-flex items-center"
               >
                 Call Us Now
-              </a>
+              </a> */}
               <a
                 href="/gallery"
                 className="border-2 border-lightGreen hover:bg-green text-black hover:text-white px-6 py-3 rounded-lg font-bold font-montserrat transition-all duration-300 inline-flex items-center"
@@ -96,43 +96,49 @@ const FeatureSection = () => {
       </Fade>
 
       {/* 3. PROGRAM DETAIL SECTION */}
-      <Fade bottom>
-        <div className="mt-16 px-4">
-          <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8">
-            <div className="flex flex-col lg:flex-row gap-8">
-              <div className="lg:w-2/5">
-                <h2 className="text-3xl lg:text-4xl font-['Poppins'] font-bold text-gray-900 mb-6">
-                  PROGRAM KAMI
-                </h2>
-                <div className="space-y-6">
-                  {[
-                    { name: "Berkuda Dasar", desc: "Untuk pemula semua usia" },
-                    { name: "Berkuda Lanjutan", desc: "Teknik Berkuda dan Memanah" },
-                    { name: "Memanah", desc: "Teknik Dasar Memanah" }
-                  ].map((program, index) => (
-                    <div key={index} className="border-l-4 border-green-500 pl-4">
-                      <h3 className="text-xl font-semibold text-gray-900">{program.name}</h3>
-                      <p className="text-gray-600 text-sm mt-1">{program.desc}</p>
-                    </div>
-                  ))}
-                </div>
+<Fade bottom>
+  <div className="mt-16 px-4">
+    <div className="bg-gradient-to-r from-green to-lightGreen rounded-2xl p-8 relative overflow-hidden">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute top-0 right-0 w-24 h-24 bg-white rounded-full translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute bottom-0 left-0 w-20 h-20 bg-white rounded-full -translate-x-1/2 translate-y-1/2"></div>
+      </div>
+      
+      <div className="flex flex-col lg:flex-row gap-8 relative z-10">
+        <div className="lg:w-2/5">
+          <h2 className="text-3xl lg:text-4xl font-['Poppins'] font-bold text-white mb-6">
+            PROGRAM KAMI
+          </h2>
+          <div className="space-y-6">
+            {[
+              { name: "Berkuda Dasar", desc: "Untuk pemula semua usia" },
+              { name: "Berkuda Lanjutan", desc: "Teknik Berkuda dan Memanah" },
+              { name: "Memanah", desc: "Teknik Dasar Memanah" }
+            ].map((program, index) => (
+              <div key={index} className="border-l-4 border-white pl-4 group hover:border-lightGreen transition-all duration-300">
+                <h3 className="text-xl font-semibold text-white group-hover:text-lightGreen transition-colors duration-300">{program.name}</h3>
+                <p className="text-white text-sm mt-1 opacity-90 group-hover:opacity-100 transition-opacity duration-300">{program.desc}</p>
               </div>
-
-              <div className="lg:w-3/5 bg-white border-2 border-lightGreen hover:bg-green p-8 rounded-xl shadow-sm">
-                <h2 className="text-2xl lg:text-3xl font-['Poppins'] font-bold text-black mb-4">
-                  Kuasai Seni Berkuda dan Memanah ala Sunnah
-                </h2>
-                <p className="text-gray-700 text-lg leading-relaxed">
-                  Saiga Stable for Sunnah menghidupkan kembali tradisi Rasulullah dengan 
-                  program berkuda dan memanah yang terintegrasi. Pelajari dua keahlian 
-                  mulia ini dalam satu kurikulum yang menggabungkan teknik profesional 
-                  dengan nilai-nilai islami.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
-      </Fade>
+
+        <div className="lg:w-3/5 bg-white bg-opacity-95 backdrop-blur-sm border-2 border-white border-opacity-30 p-8 rounded-xl shadow-2xl">
+          <h2 className="text-2xl lg:text-3xl font-['Poppins'] font-bold text-gray-900 mb-4">
+            Kuasai Seni Berkuda dan Memanah ala Sunnah
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed">
+            Saiga Stable for Sunnah menghidupkan kembali tradisi Rasulullah dengan 
+            program berkuda dan memanah yang terintegrasi. Pelajari dua keahlian 
+            mulia ini dalam satu kurikulum yang menggabungkan teknik profesional 
+            dengan nilai-nilai islami.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</Fade>
 
       {/* 4. METODE PEMBELAJARAN */}
       <div className="mt-16 px-8 text-center">
@@ -168,21 +174,38 @@ const FeatureSection = () => {
       </Fade>
 
       {/* 6. CTA SECTION */}
-      <div className="mt-16 px-8 text-center bg-green-50 rounded-2xl py-12 mx-4">
-        <h2 className="text-2xl lg:text-3xl font-['Poppins'] font-bold text-gray-900 mb-4">
-          Siap Memulai Perjalanan Sunnah Anda?
-        </h2>
-        <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-          Bergabunglah dengan komunitas Saiga Stable dan rasakan pengalaman 
-          belajar berkuda & memanah yang berbeda dengan nilai-nilai islami.
-        </p>
-        <a
-          href="/contact"
-          className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-bold font-montserrat text-lg transition-all duration-300 inline-block"
-        >
-          Hubungi Kami Sekarang
-        </a>
-      </div>
+<div className="mt-16 px-8 text-center bg-gradient-to-r from-green to-lightGreen rounded-2xl py-16 mx-4 relative overflow-hidden">
+  {/* Background Pattern */}
+  <div className="absolute inset-0 opacity-10">
+    <div className="absolute top-0 left-0 w-32 h-32 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+    <div className="absolute bottom-0 right-0 w-40 h-40 bg-white rounded-full translate-x-1/2 translate-y-1/2"></div>
+    <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+  </div>
+  
+  <div className="relative z-10">
+    <h2 className="text-2xl lg:text-4xl font-['Poppins'] font-bold text-white mb-6">
+      Siap Memulai Perjalanan Sunnah Anda?
+    </h2>
+    <p className="text-white text-lg lg:text-xl mb-10 max-w-2xl mx-auto opacity-95 leading-relaxed">
+      Bergabunglah dengan komunitas Saiga Stable dan rasakan pengalaman 
+      belajar berkuda & memanah yang berbeda dengan nilai-nilai islami.
+    </p>
+    <a
+      href="/contact"
+      className="group bg-white text-green hover:bg-gray-100 hover:text-green-600 px-10 py-4 rounded-xl font-bold font-['Poppins'] text-lg transition-all duration-300 inline-flex items-center shadow-2xl hover:shadow-3xl transform hover:-translate-y-1"
+    >
+      Hubungi Kami Sekarang
+      <svg
+        className="w-5 h-5 ml-3 transform group-hover:translate-x-1 transition-transform duration-300"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+      </svg>
+    </a>
+  </div>
+</div>
 
     </div>
   )
