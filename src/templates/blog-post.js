@@ -84,7 +84,7 @@ const BlogPost = props => {
                 />
               </div>
             )}
-            <p className="text-base text-gray-500 dark:text-gray-400 lg:mb-2">
+            <p className="text-base text-black dark:text-black lg:mb-2">
               <time dateTime={isoDate} title={titlaDate}>
                 {formattedDate}
               </time>

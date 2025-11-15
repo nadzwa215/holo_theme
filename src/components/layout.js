@@ -13,7 +13,9 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Navbar></Navbar>
-      {children}
+      <main className="pt-20"> {/* TAMBAHKAN INI - semua halaman otomatis dapat jarak */}
+        {children}
+      </main>
       <Footer></Footer>
     </div>
   )

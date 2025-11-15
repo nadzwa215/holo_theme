@@ -1,23 +1,21 @@
 ---
 templateKey: blog-post
-title: Minimalist Gatsby Starter Theme
+title: Menguasai Dua Keahlian Sunnah Berkuda & Memanah
 date: 2024-03-30T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+featuredimage: /img/blog1.jpg
 categories:
-  - Gatsby
+  - Olahraga Sunnah
 description: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+ Panduan komprehensif untuk memulai perjalanan dalam berkuda dan memanah sesuai sunnah Rasulullah. Temukan manfaat, teknik dasar, dan tips untuk pemula.
 ---
-## Lorem Ipsum 
+## Menguasai Dua Keahlian Sunnah: Berkuda & Memanah
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Dalam era modern ini, menghidupkan sunnah Rasulullah ﷺ melalui berkuda dan memanah menjadi semakin relevan. Tidak hanya sebagai bentuk ibadah, kedua aktivitas ini juga menawarkan manfaat luar biasa bagi kesehatan fisik dan mental.
 
-## Simply Dummy Text
+## Landasan Syar'i yang Kuat
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Rasulullah ﷺbersabda: "Ajarlah anak-anak kalian berkuda, berenang, dan memanah." (HR. Bukhari dan Muslim). Hadits ini menjadi dasar kuat bagi kita untuk mempelajari dan mengajarkan kedua keahlian mulia ini.
 
 
-
-## Typesetting
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Kesimpulan
+Berkuda dan memanah bukan sekadar olahraga biasa. Keduanya adalah investasi untuk dunia dan akhirat. Dengan mempelajarinya, kita tidak hanya mendapatkan manfaat fisik, tetapi juga pahala mengamalkan sunnah dan pembentukan karakter yang islami.

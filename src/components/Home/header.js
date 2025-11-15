@@ -6,9 +6,8 @@ import hero from "../../images/header.png"
 const Header = () => {
   return (
     <Fade duration={2200}>
-      <div className="max-w-7xl mx-auto lg:px-6 md:px-3 pt-6">
-        <div className="my-2 mx-auto max-w-7xl px-4 sm:mt-4 sm:px-6 md:mt-6 lg:mt-8 lg:px-0 xl:mt-12 flex gap-6 lg:flex-justify lg:flex lg:flex-row flex-col-reverse">
-          
+      <div className="max-w-7xl mx-auto lg:px-6 md:px-3 pt-2"> {/* pt-2 saja */}
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 flex gap-6 lg:flex-justify lg:flex lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
             {/* Logo Section - Kembali ke warna awal */}
             <div className="mb-3 flex items-center justify-center lg:justify-start space-x-3">

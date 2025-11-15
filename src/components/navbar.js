@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
-    <nav className="bg-white fixed w-full top-0 z-40 shadow-md border-b-2 border-green">
+    <nav className="bg-white fixed w-full top-0 z-20 shadow-md border-b-2 border-green ">
       {/* Mengurangi padding dan tinggi container */}
       <div className="max-w-7xl mx-auto px-3 py-3 rounded-md"> {/* Mengubah py-5 menjadi py-3 */}
         <div className="flex items-center justify-between h-12"> {/* Mengurangi h-16 menjadi h-12 */}
