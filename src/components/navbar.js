@@ -86,49 +86,44 @@ const Navbar = () => {
         </div>
       </div>
       {openMenu && (
-        <div className="transition duration-1000 ease-in-out md:hidden">
-          <div className="md-px-2 pt-2 pb-3 space-y-1 sm:px-3 transition duration-1000 ease-in-out">
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat" // Mengurangi padding vertikal
-              href="/"
-            >
-              Home
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-              href="/about"
-            >
-              About
-            </a>
+        <div className="transition duration-300 ease-in-out md:hidden">
+  <div className="px-4 py-6 space-y-4 bg-white border-t border-gray-200 shadow-lg">
+    {/* Navigation Links */}
+    <div className="space-y-3">
+      {[
+        { href: "/", label: "Home" },
+        { href: "/about", label: "About" },
+        { href: "/gallery", label: "Gallery" },
+        { href: "/blog", label: "Blog" },
+        { href: "/contact", label: "Contact" }
+      ].map((item, index) => (
+        <a
+          key={index}
+          href={item.href}
+          className="group flex items-center text-gray-700 hover:text-green px-4 py-3 rounded-xl text-base font-semibold font-['Poppins'] transition-all duration-300 hover:bg-green-50 border border-transparent hover:border-green-100"
+        >
+          <div className="w-2 h-2 bg-green rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          {item.label}
+          <svg 
+            className="w-4 h-4 ml-auto transform -translate-x-2 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      ))}
+    </div>
 
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-              href="/gallery"
-            >
-              Gallery
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-              href="/blog"
-            >
-              Blog
-            </a>
-            <a
-              className="text-black opacity-50 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
-              href="/contact"
-            >
-              Contact
-            </a>
-            <div className="items-center py-2"> {/* Mengurangi padding */}
-              <a
-                href="tel:#"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-6 py-2 text-sm font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent" // Mengurangi ukuran tombol
-              >
-                Call Us Now
-              </a>
-            </div>
-          </div>
-        </div>
+    {/* Additional Info */}
+    <div className="text-center px-4">
+      <p className="text-xs text-gray-500 mt-4">
+        Setiap Hari 07.00 - 21.00 WIB
+      </p>
+    </div>
+  </div>
+</div>
       )}
     </nav>
   )
