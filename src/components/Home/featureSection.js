@@ -140,7 +140,7 @@ const FeatureSection = () => {
   </div>
 </Fade>
 
-      {/* 4. METODE PEMBELAJARA */}
+      {/* 4. METODE PEMBELAJARAN */}
       <div className="mt-16 px-8 text-center">
         <h2 className="text-gray-500 text-xl font-['Poppins'] font-semibold mb-2">
           METODE PEMBELAJARAN ISLAMI

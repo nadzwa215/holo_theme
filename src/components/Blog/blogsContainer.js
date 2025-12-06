@@ -18,6 +18,16 @@ const BlogsContainer = ({ data }) => {
     }
   })
 
+  // Handler untuk form newsletter
+  const handleNewsletterSubmit = (e) => {
+    e.preventDefault()
+    const formData = new FormData(e.currentTarget)
+    const email = formData.get('email')
+    
+    // Mengarahkan ke email dengan template
+    window.location.href = `mailto:saigastableteam@gmail.com?subject=Berlangganan Newsletter&body=Email: ${encodeURIComponent(email)}%0D%0A%0D%0ASaya ingin berlangganan newsletter dari Saigas Table Team.`
+  }
+
   return (
     <div className="max-w-7xl mx-auto mt-16 px-4 lg:px-8">
       {/* Blog Grid Section */}
@@ -149,22 +159,29 @@ const BlogsContainer = ({ data }) => {
               Kami hanya mengirimkan konten berkualitas.
             </p>
 
-            {/* Newsletter Form */}
-            <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+            {/* Newsletter Form - DIKOREKSI */}
+            <form 
+              onSubmit={handleNewsletterSubmit}
+              className="flex flex-col gap-4 max-w-md mx-auto"
+            >
               <div className="flex-1">
                 <Input 
+                  name="email"
+                  type="email"
                   placeholder="Masukkan email Anda"
-                  className="bg-white/10 border-white/20 text-white placeholder-white/70 focus:bg-white/20 focus:border-white/40"
+                  required
+                  className="bg-white/10 border-white/20 text-white placeholder-white/70 focus:bg-white/20 focus:border-white/40 w-full "
                 />
               </div>
               
               <Button
+                type="submit"
                 title="Berlangganan"
                 colorClass="bg-white text-green hover:bg-gray-100 font-semibold border-2 border-white"
                 marginClass="mt-0"
                 className="whitespace-nowrap transform hover:scale-105 transition-transform duration-300"
               />
-            </div>
+            </form>
 
             <p className="text-white/70 text-sm mt-4">
               Kami menghormati privasi Anda. Tidak ada spam.

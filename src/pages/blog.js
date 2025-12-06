@@ -16,8 +16,19 @@ const Blog = ({ data }) => {
         title="Saiga Blog"
         description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
       ></Seo>
-      <BlogHeader post={HeaderPost} />
-      <BlogsContainer data={otherPosts} />
+      
+      {/* Container utama dengan padding responsif */}
+      <div className="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        {/* Header Blog */}
+        <div className="mb-8 sm:mb-12 lg:mb-16">
+          <BlogHeader post={HeaderPost} />
+        </div>
+        
+        {/* Blogs Container */}
+        <div className="pb-8 sm:pb-12 lg:pb-16">
+          <BlogsContainer data={otherPosts} />
+        </div>
+      </div>
     </Layout>
   )
 }
