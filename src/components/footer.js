@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/PIC2.png"
+import logo from "../images/PIC2.webp"
 
 const Footer = () => {
   const mapsUrl = "https://maps.app.goo.gl/JXqNDM7fUa3GLESy9"

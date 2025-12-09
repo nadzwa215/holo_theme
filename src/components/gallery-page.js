@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/PIC2.png"
+import HeroImage from "../images/PIC2.webp"
 // Import gambar-gambar gallery baru di sini
 import Gallery1 from "../images/galery4.jpg"
 import Gallery2 from "../images/galery2.jpg"
