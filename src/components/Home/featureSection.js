@@ -16,14 +16,24 @@ const FeatureSection = () => {
         <div className="mx-auto max-w-7xl px-4 sm:mt-8 sm:px-6 md:mt-10 lg:mt-12 lg:px-0 xl:mt-14 flex flex-col lg:flex-row gap-6">
 
           {/* Hero Image */}
-          <div className="lg:w-1/2 my-4">
+          <div className="lg:w-1/2 my-4 flex justify-center">
             <picture>
               <img
                 src={HeroImage}
                 loading="lazy"
                 width={1200}
                 height={800}
-                className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full shadow-lg"
+                className="
+                  rounded-xl 
+                  w-full 
+                  max-w-[380px]        /* khusus mobile: width dibatasi */
+                  sm:max-w-[480px] 
+                  md:max-w-none 
+                  h-56 object-cover 
+                  sm:h-72 md:h-96 
+                  lg:w-full lg:h-full 
+                  shadow-lg
+                "
                 alt="Hero Section"
               />
             </picture>
@@ -88,7 +98,6 @@ const FeatureSection = () => {
         <div className="mt-16 px-4">
           <div className="bg-gradient-to-r from-green to-lightGreen rounded-2xl p-8 relative overflow-hidden">
             
-            {/* Content */}
             <div className="flex flex-col lg:flex-row gap-8 relative z-10">
 
               <div className="lg:w-2/5">
@@ -109,7 +118,6 @@ const FeatureSection = () => {
                 </div>
               </div>
 
-              {/* Description Box */}
               <div className="lg:w-3/5 bg-white bg-opacity-95 p-8 rounded-xl shadow-2xl">
                 <h2 className="text-2xl lg:text-3xl font-['Poppins'] font-bold text-gray-900 mb-4">
                   Kuasai Seni Berkuda dan Memanah ala Sunnah
@@ -129,38 +137,53 @@ const FeatureSection = () => {
         <div className="mt-16 px-5">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            {/* Image 1 */}
-            <div className="rounded-xl overflow-hidden shadow-lg">
+            <div className="rounded-xl overflow-hidden shadow-lg flex justify-center">
               <img
                 src={Image1}
                 loading="lazy"
                 width={800}
                 height={600}
-                className="w-full h-68 object-cover"
+                className="
+                  w-full 
+                  max-w-[360px]    /* width mobile */
+                  sm:max-w-[480px]
+                  md:max-w-none
+                  h-68 object-cover
+                "
                 alt="Kegiatan Memanah"
               />
             </div>
 
-            {/* Image 2 */}
-            <div className="rounded-xl overflow-hidden shadow-lg">
+            <div className="rounded-xl overflow-hidden shadow-lg flex justify-center">
               <img
                 src={Image2}
                 loading="lazy"
                 width={800}
                 height={600}
-                className="w-full h-68 object-cover"
+                className="
+                  w-full 
+                  max-w-[360px]
+                  sm:max-w-[480px]
+                  md:max-w-none
+                  h-68 object-cover
+                "
                 alt="Latihan Berkuda"
               />
             </div>
 
-            {/* Image 3 */}
-            <div className="rounded-xl overflow-hidden shadow-lg">
+            <div className="rounded-xl overflow-hidden shadow-lg flex justify-center">
               <img
                 src={Image3}
                 loading="lazy"
                 width={800}
                 height={600}
-                className="w-full h-68 object-cover"
+                className="
+                  w-full 
+                  max-w-[360px]
+                  sm:max-w-[480px]
+                  md:max-w-none
+                  h-68 object-cover
+                "
                 alt="Komunitas Saiga"
               />
             </div>
