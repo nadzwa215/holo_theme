@@ -2,38 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Poppins";
-  src: url("/fonts/Poppins-Regular.woff2") format("woff2");
-  font-display: swap;
-}
-
-
 /* ============================
    GLOBAL TYPOGRAPHY
    ============================ */
 
+body,
 p,
 input,
-textarea {
-  font-family: "Noto Serif", sans-serif;
-  font-size: 1rem !important;
-  line-height: 1.5rem !important;
-}
-
+textarea,
+a,
+span,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-span {
-  font-family: "Montserrat", sans-serif;
-}
-
-a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem !important;
+h6 {
+  font-family: "Poppins", sans-serif !important;
 }
 
 /* ============================
@@ -58,11 +43,7 @@ a {
   }
 }
 
-/* ============================
-   CUSTOM STYLES
-   ============================ */
-
-/* Prevent horizontal scroll on mobile */
+/* Prevent horizontal scroll */
 html,
 body {
   overflow-x: hidden;
@@ -81,7 +62,7 @@ body {
   background: linear-gradient(90deg, #796a99, #554970);
 }
 
-/* Mobile dropdown background (md:hidden) */
+/* Mobile dropdown background */
 .md\:hidden {
   background-color: hsla(243, 60%, 95%, 1);
   border-radius: 0 0 10px 10px;

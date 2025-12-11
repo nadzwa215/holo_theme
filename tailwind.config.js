@@ -5,10 +5,12 @@ module.exports = {
 
   theme: {
     extend: {
-      fontFamily: {
-        montserrat: ["Montserrat", "sans-serif"],
-        notoserif: ["Noto Serif", "sans-serif"],
-      },
+        fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"],
+      notoserif: ["Noto Serif", "sans-serif"],
+    },
+
     },
     colors: {
       black: colors.black,
