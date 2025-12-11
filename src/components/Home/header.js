@@ -9,6 +9,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3 pt-2">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 flex gap-6 lg:flex-row flex-col-reverse">
 
+          {/* TEXT SECTION */}
           <div className="text-center lg:text-left flex flex-col justify-center">
             <div className="mb-3 flex items-center justify-center lg:justify-start space-x-3">
               <h2 className="text-black text-gradient bg-gradient-to-r from-lightGreen to-green text-6xl font-['Poppins'] font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
@@ -49,8 +50,13 @@ const Header = () => {
             </div>
           </div>
 
+          {/* IMAGE SECTION — FIXED CLS */}
           <div className="lg:w-1/2 my-2 flex lg:justify-end justify-center">
             <img
+              src={hero}
+              alt="Saiga Stable Hero"
+              width="800"      // <<< GANTI DENGAN UKURAN ASLI GAMBAR
+              height="1200"    // <<< GANTI DENGAN UKURAN ASLI GAMBAR
               className="
                 rounded-xl
                 w-full
@@ -61,8 +67,7 @@ const Header = () => {
                 object-cover
                 mx-auto
               "
-              src={hero}
-              alt="Saiga Stable Hero"
+              loading="lazy"
             />
           </div>
 
