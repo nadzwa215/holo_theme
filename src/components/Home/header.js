@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Fade duration={2200}>
       <div className="max-w-7xl mx-auto lg:px-6 md:px-3 pt-2">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 flex gap-6 lg:flex-justify lg:flex lg:flex-row flex-col-reverse">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-0 flex gap-6 lg:flex-row flex-col-reverse">
 
           <div className="text-center lg:text-left flex flex-col justify-center">
             <div className="mb-3 flex items-center justify-center lg:justify-start space-x-3">
@@ -49,18 +49,17 @@ const Header = () => {
             </div>
           </div>
 
-          {/* IMAGE SECTION: width sudah dioptimasi mobile */}
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-2 flex lg:justify-end justify-center">
+          <div className="lg:w-1/2 my-2 flex lg:justify-end justify-center">
             <img
               className="
                 rounded-xl
-                w-full                   /* penting: responsive */
-                max-w-[360px]            /* batas mobile */
-                sm:max-w-[480px]         /* batas tablet kecil */
-                md:max-w-full            /* normal kembali di md ke atas */
+                w-full
+                max-w-[480px]
+                sm:max-w-[550px]
+                md:max-w-full
                 h-auto
                 object-cover
-                mx-auto                  /* biar center di mobile */
+                mx-auto
               "
               src={hero}
               alt="Saiga Stable Hero"
