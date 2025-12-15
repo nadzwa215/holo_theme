@@ -41,7 +41,7 @@ const FeatureSection = () => {
 
           {/* Hero Text */}
           <div className="lg:w-1/2 text-center lg:text-right flex flex-col justify-center">
-            <h3 className="text-black text-4xl lg:text-6xl font-bold font-['Poppins']">
+            <h3 className="text-green text-4xl lg:text-6xl font-bold font-['Poppins']">
               Mahir Berkuda, Meneladani Sunnah
             </h3>
 
@@ -68,7 +68,7 @@ const FeatureSection = () => {
       {/* 4 PILAR */}
       <div className="mt-16 px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold font-['Poppins'] text-gray-900">
+          <h2 className="text-3xl lg:text-4xl font-bold font-['Poppins'] text-green">
             Empat Pilar Pembelajaran Kami
           </h2>
           <p className="text-lg text-gray-600">Integrasi lengkap antara skill dan nilai spiritual</p>
@@ -117,7 +117,7 @@ const FeatureSection = () => {
             </div>
 
             <div className="lg:w-3/5 bg-white bg-opacity-95 p-8 rounded-xl shadow-xl">
-              <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl lg:text-3xl font-bold text-green mb-4">
                 Kuasai Seni Berkuda & Memanah ala Sunnah
               </h2>
               <p className="text-gray-700 text-lg">
@@ -132,7 +132,7 @@ const FeatureSection = () => {
       {/* METODE */}
       <div className="mt-16 px-8 text-center max-w-4xl mx-auto">
         <h2 className="text-gray-500 text-xl font-semibold mb-2">METODE PEMBELAJARAN ISLAMI</h2>
-        <h3 className="text-3xl lg:text-5xl font-bold mb-6">
+        <h3 className="text-3xl lg:text-5xl font-bold mb-6 text-green">
           Kuasai Dua Keahlian Sunnah yang Mulia
         </h3>
         <p className="text-gray-600 text-lg">
