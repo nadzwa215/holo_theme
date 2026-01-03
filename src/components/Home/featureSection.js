@@ -132,7 +132,7 @@ const FeatureSection = () => {
       {/* METODE */}
       <div className="mt-16 px-8 text-center max-w-4xl mx-auto">
         <h2 className="text-gray-500 text-xl font-semibold mb-2">METODE PEMBELAJARAN ISLAMI</h2>
-        <h3 className="text-3xl lg:text-5xl font-bold mb-6 text-green">
+        <h3 className="text-3xl lg:text-5xl font-bold mb-6 text-b">
           Kuasai Dua Keahlian Sunnah yang Mulia
         </h3>
         <p className="text-gray-600 text-lg">

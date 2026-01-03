@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav 
-      className="bg-white fixed w-full top-0 z-20 border-b border-gray-200 shadow-sm"
+      className="bg-white fixed w-full top-0 z-30 border-b border-green shadow-sm"
       role="navigation"
       aria-label="Main Navigation"
     >
