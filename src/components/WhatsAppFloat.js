@@ -3,7 +3,7 @@ import React from "react"
 export default function WhatsAppFloat() {
   return (
     <a
-      href="https://wa.me/6285881579317"
+      href="https://wa.me/6285881579317?text=Halo%20Admin,%20saya%20ingin%20bertanya"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat WhatsApp"
@@ -19,16 +19,8 @@ export default function WhatsAppFloat() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        boxShadow: "0 10px 25px rgba(0,0,0,0.25)",
-        transition: "transform 0.25s ease, box-shadow 0.25s ease",
-      }}
-      onMouseEnter={e => {
-        e.currentTarget.style.transform = "scale(1.08)"
-        e.currentTarget.style.boxShadow = "0 14px 30px rgba(0,0,0,0.3)"
-      }}
-      onMouseLeave={e => {
-        e.currentTarget.style.transform = "scale(1)"
-        e.currentTarget.style.boxShadow = "0 10px 25px rgba(0,0,0,0.25)"
+        boxShadow: "0 8px 20px rgba(0,0,0,0.3)",
+        cursor: "pointer",
       }}
     >
       <img
