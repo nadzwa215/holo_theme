@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `BERKUDA & MEMANAH`,
-    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
-    siteUrl: "https://holo-theme.netlify.app/",
-    author: `Travis Lord <hi@travislord.xyz>`,
+    description: `Sekolah Berkuda Dan Memanah`,
+    siteUrl: "https://saigastable.com/",
+    author: `nadzwa`,
+    keywords:"seni berkuda, program memanah, fasilitas yang aman, teknik profesional, skill dan nilai spiritual, Dokumentasi visual, Dua Keahlian Sunnah, Teknik Berkuda, Filosofi Memanah,"
   },
   plugins: [
     `gatsby-plugin-image`,
