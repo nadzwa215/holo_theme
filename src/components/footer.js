@@ -5,11 +5,8 @@ import logo from "../images/logo-small.webp"
 const Footer = () => {
   const year = new Date().getFullYear()
 
-  // *** VARIABEL PERBAIKAN ***
-  // 1. SAFE_TEXT_CLASS: Mengganti text-green/80 dan text-green/70 dengan warna aman kontras
-  const SAFE_TEXT_CLASS = "text-gray-700" 
-  // 2. FONT_CLASS: Menambahkan font-poppins ke semua elemen teks
-  const FONT_CLASS = "font-poppins" 
+  const SAFE_TEXT_CLASS = "text-gray-700"
+  const FONT_CLASS = "font-poppins"
 
   return (
     <footer
@@ -40,30 +37,23 @@ const Footer = () => {
                 loading="lazy"
               />
               <div>
-                {/* Judul situs: Tetap Green, tambahkan Poppins */}
                 <h3 className={`text-green font-bold text-2xl ${FONT_CLASS}`}>
                   Saiga Stable
                 </h3>
-                {/* FIX KONTRAST: text-green/80 -> SAFE_TEXT_CLASS + Poppins */}
                 <p className={`${SAFE_TEXT_CLASS} text-xs ${FONT_CLASS}`}>
                   Berkuda • Memanah • Sunnah
                 </p>
               </div>
             </div>
 
-            {/* FIX KONTRAST: text-green/80 -> SAFE_TEXT_CLASS + Poppins */}
             <p className={`mt-5 ${SAFE_TEXT_CLASS} text-sm italic max-w-sm mx-auto md:mx-0 ${FONT_CLASS}`}>
               “Di setiap langkah kuda dan tarikan busur, ada kesabaran,
               keteguhan hati, dan niat yang lurus.”
             </p>
           </div>
 
-          {/* 2. NAVIGASI (Perhatikan Fix Heading dan Link) */}
-          <nav
-            aria-label="Navigasi Footer"
-            className="text-center md:text-left"
-          >
-            {/* FIX HEADING: h4 -> h3 (Struktur Heading yang Benar) + Poppins */}
+          {/* 2. NAVIGASI */}
+          <nav aria-label="Navigasi Footer" className="text-center md:text-left">
             <h3 className={`font-semibold text-green text-lg mb-4 ${FONT_CLASS}`}>
               Navigasi
             </h3>
@@ -79,7 +69,6 @@ const Footer = () => {
                 <li key={index}>
                   <Link
                     to={item.to}
-                    // FIX KONTRAST: text-green/80 -> SAFE_TEXT_CLASS + Poppins
                     className={`
                       ${SAFE_TEXT_CLASS}
                       text-sm
@@ -97,52 +86,34 @@ const Footer = () => {
             </ul>
           </nav>
 
-          {/* 3. KONTAK (Perhatikan Fix Heading dan Teks) */}
+          {/* 3. KONTAK + MAPS */}
           <div className="text-center md:text-right">
-            {/* FIX HEADING: h4 -> h3 + Poppins */}
             <h3 className={`font-semibold text-green text-lg mb-4 ${FONT_CLASS}`}>
               Kontak
             </h3>
 
             <div className="space-y-3 text-sm">
 
-              {/* FIX KONTRAST: text-green/70 -> SAFE_TEXT_CLASS + Poppins */}
               <p className={`${SAFE_TEXT_CLASS} ${FONT_CLASS}`}>
                 Setiap hari • 07.00 – 21.00 WIB
               </p>
 
-              {/* Link WA: Tetap text-green, tambahkan Poppins */}
               <a
                 href="https://wa.me/6285881579317"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`
-                  block
-                  font-semibold
-                  text-green
-                  hover:text-black
-                  transition
-                  ${FONT_CLASS}
-                `}
+                className={`block font-semibold text-green hover:text-black transition ${FONT_CLASS}`}
               >
                 +62 858-8157-9317
               </a>
 
-              {/* Link Email: Tetap text-green, tambahkan Poppins */}
               <a
                 href="mailto:saigastableteam@gmail.com"
-                className={`
-                  block
-                  text-green
-                  hover:text-black
-                  transition
-                  ${FONT_CLASS}
-                `}
+                className={`block text-green hover:text-black transition ${FONT_CLASS}`}
               >
                 saigastableteam@gmail.com
               </a>
 
-              {/* Link Buka Lokasi: Tetap text-green, tambahkan Poppins */}
               <a
                 href="https://maps.app.goo.gl/JXqNDM7fUa3GLESy9"
                 target="_blank"
@@ -164,13 +135,23 @@ const Footer = () => {
                 <span aria-hidden="true">→</span>
               </a>
 
+              {/* GOOGLE MAPS */}
+              <div className="mt-4 overflow-hidden rounded-xl shadow-md">
+  <iframe
+    title="Lokasi Saiga Stable"
+    src="https://www.google.com/maps?q=Saiga+Stable&output=embed"
+    className="w-full h-48 border-0"
+    loading="lazy"
+  />
+</div>
+
+
             </div>
           </div>
         </div>
 
         {/* COPYRIGHT */}
         <div className="mt-14 pt-6 border-t border-green text-center">
-          {/* FIX KONTRAST: text-green/80 -> SAFE_TEXT_CLASS + Poppins */}
           <p className={`${SAFE_TEXT_CLASS} text-sm font-medium ${FONT_CLASS}`}>
             © {year} Saiga Stable — Semua Hak Dilindungi
           </p>
